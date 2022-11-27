@@ -1,0 +1,89 @@
+/* ----------------------------------------------*/
+/* SHIPPING-BAR */
+/* ----------------------------------------------*/
+.shipping-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #f4f5f0;
+  background-color: #7ba194;
+  letter-spacing: 0.2rem;
+  padding: 1.5rem 4.8rem;
+}
+
+/* ----------------------------------------------*/
+/* HEADER */
+/* ----------------------------------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 4.8rem;
+  background-color: #fff;
+}
+.brand-name {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+/* ----------------------------------------------*/
+/* NAVIGATION */
+/* ----------------------------------------------*/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  font-size: 1.4rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #111;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.bag:link,
+.bag:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.bag:hover,
+.bag:active {
+  color: #111;
+}
+.cart {
+  font-size: 2.4rem;
+  position: relative;
+}
+.cart::after {
+  content: "0";
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -30%;
+  top: -5%;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #d55c56;
+  border-radius: 50%;
+}
+
+/* ----------------------------------------------*/
+/* HERO */
+/* ----------------------------------------------*/
